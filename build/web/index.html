@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="MyServelet" method="POST">
+            <center><h1>Calculadora Online</h1></center>
+            <center>
+                <table>
+                    <tr>
+                        <td><input type="text" size="10" name='op1'/></td>
+
+                        <td>
+                            <select name="operacao">
+                                <option></option>
+                                <option value="+">+</option>
+                                <option value="-">-</option>
+                                <option value="x">x</option>
+                                <option value="^">xª</option>
+                                <option value="/">/</option>
+                            </select>
+                        </td>
+
+                         <td><input type="text" size="10" name='op2'/></td>
+                    </tr>
+
+                    <tr>
+                        <td><center>Operando 1</center></td>
+                        <td></td>
+                        <td><center>Operando 2</center></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><br><br><input type="submit" value='Calcular'/></td>
+                    </tr>
+                </table>
+            </center>
+        </form>
+    </body>
+</html>
